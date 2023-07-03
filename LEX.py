@@ -195,7 +195,7 @@ stanford_dir = "D:\\k\\stantag"
 #for my PC at NU
 #stanford_dir = "C:\\Users\\jrimperial\\Documents\\MSCS\\THESIS\\POS Tagging\\stanford-postagger-full-2018-10-16\\stanford-postagger-full-2018-10-16"
 
-modelfile = stanford_dir + "\\filipino-left5words-owlqn2-distsim-pref6-inf2.tagger"
-jarfile = stanford_dir+"\\stanford-postagger.jar"
+modelfile = "filipino-left5words-owlqn2-distsim-pref6-inf2.tagger"
+jarfile = "stanford-postagger.jar"
 # print(jarfile,modelfile)
 pos_tagger=StanfordPOSTagger(modelfile,jarfile,java_options="-Xmx4G")
